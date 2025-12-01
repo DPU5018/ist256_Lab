@@ -4,55 +4,66 @@
     <meta charset="UTF-8">
     <title>Sign UP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-        form{background: white}
-        h2{margin: auto;background: white; text-align: center; width: 40%;}
-    </style>
-
+    <link rel="stylesheet" type="text/css" href= "myStyle.css">
+    <script src="netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
   <body>
-    <link rel="stylesheet" type="text/css" href= "myStyle.css">
     <header>
         <h1> Plastic Makers<sub>inc</sub></h1>
     </header>
+        <section>
+        <form>
+            <div class="Heading">
+                <h2>User Signup</h2>
+            </div>
 
-     <h2>User Sign UP</h2>
-
-    <div class="container">
-        <form action="/action_page.php">
             <div class="form-group">
-                <label for="Username">Username:</label>
+                <label for="Username">User name: </label><br>
                 <input type="Username" class="form-control" id="Username" placeholder="Enter Username" name="Username">
             </div>
 
+            <br>
+
             <div class="form-group">
-                <label for="email">Email:</label>
+                <label for="email">Email: </label><br>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
             </div>
 
+            <br>
+
             <div class="form-group">
-                <label for="pwd">Password:</label>
+                <label for="pwd">Password: </label><br>
                 <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
             </div>
+
+            <br>
+
             <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="" placeholder="Enter confirm password" name="pwd">
+                <label for="pwd">  Confirm Password: </label><br>
+                <input type="password" class="form-control" id="pass" placeholder="Enter confirm password" name="pwd">
             </div>
 
-            <div class="checkbox">
-                <label><input type="checkbox" name="remember"> Remember me</label>
+            <br>
+
+            <div class="button">
+                <button type="submit" class="btn btn-default">Submit</button>
             </div>
 
-            <button type="submit" class="btn btn-default">Submit</button>
+            <br>
 
-            <button type="button" class="btn btn-default"> <a href="index.html">Return Home</a> </button>
+           <div class="button">
+               <button type="button" class="btn btn-default"> <a href="Home.html">Return Home</a> </button>
+           </div>
+
         </form>
-    </div>
-     
-      
-      
+    </section>
+
+    <footer class="numHold-12">
+            <p>Plastic Makers<sub>inc est 2025</sub></p>
+            <div>
+                <i> <a href="TermsofUse.html">Terms of Use</a> . . .  <a href="CookieandPrivacy.html">Cookie and Privacy policy</a> . . . <a href="Copyright.html">Copyright</a> </i>
+            </div>
+    </footer>
+
   </body>
 </html>

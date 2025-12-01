@@ -5,14 +5,19 @@ body{
 header{
     text-align: center;
     margin: auto;
+    border-radius: 30px;
     background: whitesmoke;
     width: 100%;
 }
 
 /* Styling for the section */
 section{
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 10px;
     text-align: left;
-    margin: auto;
+    margin: 30px auto;
+    padding: 30px 25px;
     width: 50%;
     h1{
         text-align: center;
@@ -29,23 +34,36 @@ section{
         background: whitesmoke;
     }
 }
+
 nav ul{
-    text-align: left;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 15px;
+
 }
+
 /* Styling for the aside */
 aside{
+    background-color: burlywood;
+    border: 1px solid black;
     text-align: center;
     margin: auto;
+
     p{
         background: whitesmoke;
     }
 }
 /* Styling for the footer */
 footer{
+    text-align: center;
+    margin: auto;
+    border-radius: 30px;
+    background: whitesmoke;
     article {
         background: whitesmoke;
     }
-    /*TODO Styling for the horizontal buttons */
+
 }
 
 /* Styling for the vertical buttons */
@@ -55,15 +73,49 @@ ul{
     padding: 0;
     background-color: whitesmoke;
 }
+
 li a {
     display: block;
     color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
+
 li a:hover {
     background-color: gray;
     color: white;
+    border-radius: 15px;
 }
+input{
+    padding: 10px 15px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form{
+    h2{
+        text-align: center;
+    }
+    width: 90%;
+    margin: 15px auto;
+    padding: 20px 15px;
+    text-align: left;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+    border-radius: 15px;}
+
+
 
 
