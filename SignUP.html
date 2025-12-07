@@ -5,60 +5,51 @@
     <title>Sign UP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href= "myStyle.css">
-    <script src="netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="SignUp.js"></script>
 </head>
   <body>
     <header>
         <h1> Plastic Makers<sub>inc</sub></h1>
     </header>
         <section>
-        <form>
+            <div id="SignUpError"></div>
+        <form id="SignUP" action="/" method="get">
             <div class="Heading">
                 <h2>User Signup</h2>
             </div>
-
-            <div class="form-group">
+            <div>
                 <label for="Username">User name: </label><br>
-                <input type="Username" class="form-control" id="Username" placeholder="Enter Username" name="Username">
+                <input id="Username" placeholder="User name" name="Username" type="text" required>
             </div>
-
             <br>
-
-            <div class="form-group">
+            <div >
                 <label for="email">Email: </label><br>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                <input  id="email" placeholder="Enter email" name="email" type="email" required>
             </div>
-
             <br>
-
-            <div class="form-group">
+            <div >
                 <label for="pwd">Password: </label><br>
-                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                <input  id="pwd" placeholder="Enter password" name="pwd" type="password" required>
             </div>
-
             <br>
-
-            <div class="form-group">
-                <label for="pwd">  Confirm Password: </label><br>
-                <input type="password" class="form-control" id="pass" placeholder="Enter confirm password" name="pwd">
+            <div>
+                <label for="pass">  Confirm Password: </label><br>
+                <input id="pass" placeholder="Enter confirm password" name="pass" type="password" required>
             </div>
-
             <br>
-
-            <div class="button">
-                <button type="submit" class="btn btn-default">Submit</button>
+            <div>
+                <button type="submit">Submit</button>
+                <br>
+                <input class="Reset" type="reset" value="Reset">
             </div>
-
             <br>
-
-           <div class="button">
-               <button type="button" class="btn btn-default"> <a href="index.html">Return Home</a> </button>
-           </div>
-
         </form>
+            <div>
+                <button type="button"> <a href="index.html">Return Home</a> </button>
+            </div>
     </section>
 
-    <footer class="numHold-12">
+    <footer>
             <p>Plastic Makers<sub>inc est 2025</sub></p>
             <div>
                 <i> <a href="TermsofUse.html">Terms of Use</a> . . .  <a href="CookieandPrivacy.html">Cookie and Privacy policy</a> . . . <a href="Copyright.html">Copyright</a> </i>
